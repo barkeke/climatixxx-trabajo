@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#301f33"/><stop offset="1" stop-color="#14111a"/></linearGradient>
+<filter id="b"><feGaussianBlur stdDeviation="28"/></filter>
+</defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<circle cx="430" cy="210" r="130" fill="#e0a3b8" opacity=".55" filter="url(#b)"/>
+<circle cx="470" cy="320" r="150" fill="#7d6ad0" opacity=".5" filter="url(#b)"/>
+<path d="M0 360 C 200 310, 400 420, 800 345" stroke="#e0a3b8" stroke-width="3" fill="none" opacity=".7"/>
+<path d="M0 400 C 220 345, 420 450, 800 385" stroke="#7d6ad0" stroke-width="2" fill="none" opacity=".5"/>
+</svg>

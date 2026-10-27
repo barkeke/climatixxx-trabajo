@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<defs>
+<radialGradient id="bg" cx=".5" cy=".4" r=".8"><stop offset="0" stop-color="#3d2a3d"/><stop offset="1" stop-color="#161018"/></radialGradient>
+<linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1c2d6"/><stop offset="1" stop-color="#b9739a"/></linearGradient>
+<linearGradient id="l" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c8bdf2"/><stop offset="1" stop-color="#7a69c4"/></linearGradient>
+<linearGradient id="t" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b8ece0"/><stop offset="1" stop-color="#5fae9c"/></linearGradient>
+</defs>
+<rect width="600" height="600" fill="url(#bg)"/>
+<ellipse cx="300" cy="500" rx="170" ry="22" fill="#000" opacity=".25"/>
+<g transform="rotate(-20 200 330)"><rect x="140" y="230" width="90" height="250" rx="45" fill="url(#l)"/></g><circle cx="400" cy="340" r="95" fill="url(#p)"/><ellipse cx="370" cy="310" rx="22" ry="34" fill="#fff" opacity=".25"/><circle cx="450" cy="450" r="34" fill="none" stroke="url(#t)" stroke-width="14"/>
+</svg>
